@@ -1,4 +1,7 @@
 # Fibonacci
+
 Fibonacci number finder, using dynamic programming and recursion.
 
-This is just for fun.  Find fibonacci numbers fast.  Performance improves with use (although negligible).
+Find fibonacci numbers fast.  Performance improves with use (although negligible).
+
+This is just for fun.  It is not really useful or the most practical way to write this.
