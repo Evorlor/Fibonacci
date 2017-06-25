@@ -11,6 +11,7 @@ public static class Fibonacci
 
 	/// <summary>
 	/// Gets the Fibonacci number where the sequence starts with 0 being 0 and 1 being 1
+	/// This function will only calculate numbers that will fit in a ulong, which makes the max index 93.
 	/// Uses dynamic programming and recursion
 	/// </summary>
 	/// <param name="index">Index of Fibonacci number</param>
