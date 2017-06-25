@@ -11,7 +11,7 @@ public static class Fibonacci
 
 	/// <summary>
 	/// Gets the Fibonacci number at the specified index.  Indexing starts at 0.
-	/// The sequence is 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, etc.
+	/// The sequence is 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, etc.
 	/// This function will only calculate numbers that will fit in a ulong, which makes the max index 93.
 	/// Uses dynamic programming and recursion
 	/// </summary>
