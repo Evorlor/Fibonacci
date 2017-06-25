@@ -1,4 +1,4 @@
 # Fibonacci
-Fibonacci number finder, using dynamic programming.
+Fibonacci number finder, using dynamic programming and recursion.
 
-This is just for fun.  Find fibonacci numbers fast using recursion.
+This is just for fun.  Find fibonacci numbers fast.  Performance improves with use (although negligible).
