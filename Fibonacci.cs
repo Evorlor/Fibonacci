@@ -1,8 +1,12 @@
+using System;
+
 /// <summary>
 /// Utility class for getting Fibonacci numbers
 /// </summary>
 public static class Fibonacci
 {
+	private const int MaxIndex = 93;
+
 	private static ulong[] fibbonaciNumbers = new ulong[0];
 
 	/// <summary>
@@ -17,7 +21,7 @@ public static class Fibonacci
 		{
 			throw new ArgumentOutOfRangeException("Only positive numbered Fibonacci Numbers exist!");
 		}
-		if (index > 93)
+		if (index > MaxIndex)
 		{
 			throw new ArgumentOutOfRangeException("A ulong cannot hold a number this large!");
 		}
