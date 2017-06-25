@@ -10,7 +10,8 @@ public static class Fibonacci
 	private static ulong[] fibbonaciNumbers = new ulong[0];
 
 	/// <summary>
-	/// Gets the Fibonacci number where the sequence starts with 0 being 0 and 1 being 1
+	/// Gets the Fibonacci number at the specified index.  Indexing starts at 0.
+	/// The sequence is 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, etc.
 	/// This function will only calculate numbers that will fit in a ulong, which makes the max index 93.
 	/// Uses dynamic programming and recursion
 	/// </summary>
